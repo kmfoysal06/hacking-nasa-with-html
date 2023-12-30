@@ -1,4 +1,5 @@
- numlist=[];
+//just copied from stackoverflow 😀
+numlist=[];
   colors = ["red"];
      for(let i=0;i<100;i++){
        numlist.push(i+'%');
