@@ -37,7 +37,8 @@
   background: linear-gradient(0deg,rgb(0 0 0 /0%)30%,rgb(255 0 117)100%);
   border-radius: 50%;
   padding: 3px;
-  animation: animate 0.7s linear 15;
+  opacity:0;
+  animation: animate 0.7s ease-in 15;
   
 }
 #w{
@@ -60,8 +61,12 @@
 @keyframes animate{
   0%{
     transform: rotate(0deg);
+    opacity:1;
   }
-  100%{
+  98%{
     transform: rotate(360deg);
+  }
+  100% {
+    opacity:0;
   }
 }
